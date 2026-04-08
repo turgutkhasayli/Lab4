@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tapşırıq 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sarı Fon</h1>
+</body>
+</html> 
+
+body {
+    background-color: yellow;
+    background-image: url('https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
