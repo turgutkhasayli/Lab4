@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kart">
+        <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?q=80&w=400" alt="iPhone 13">
+        <h3>iPhone 13</h3>
+        <p class="qiymet">1200 AZN</p>
+    </div>
+</body>
+</html>
+
+body {
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.kart {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.kart img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    margin: 15px 0 10px;
+    font-size: 18px;
+}
+
+.qiymet {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
